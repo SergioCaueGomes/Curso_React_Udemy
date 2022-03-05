@@ -1,9 +1,9 @@
-import React from "react"
+import React from "react";
 
 export default function ComParametro(props) {
 
-    const status = props.nota >= 7 ? 'Aprovado' : 'Reprovado'
-    const notaInt =Math.ceil(props.nota)
+    const status = props.nota >= 7 ? 'Aprovado' : 'Reprovado';
+    const notaInt =Math.ceil(props.nota);
 
     return ( 
 
@@ -18,5 +18,5 @@ export default function ComParametro(props) {
               <br></br>
             </p>
         </div>
-    )
+    );
 }
