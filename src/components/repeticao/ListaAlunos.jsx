@@ -8,7 +8,7 @@ export default props => {
         return (
 
             <li key={ aluno.id }>
-                { aluno.id } {aluno.nome } -> { aluno.nota }
+                { aluno.id } - {aluno.nome }, nota = { aluno.nota }
             </li>
         );
     });

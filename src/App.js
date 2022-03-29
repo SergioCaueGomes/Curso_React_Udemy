@@ -2,6 +2,7 @@ import React from "react";
 import './index.css';
 import './App.css';
 
+import TabelaProdutos from "./components/repeticao/TabelaProdutos";
 import ListaAlunos from "./components/repeticao/ListaAlunos";
 import Familia from "./components/basicos/Familia";
 import FamiliaMembro from "./components/basicos/FamiliaMembro";
@@ -11,11 +12,15 @@ import Fragmento from './components/basicos/Fragmento';
 import ComParametro from './components/basicos/ComParametro';
 import Primeiro from './components/basicos/Primeiro';
 
+
 export default () => (
     <div className="App">
         <h1>Fundamentos React</h1>
         <div className="Cards">
 
+            <Card titulo='#07 - Desafio Repetição (Tabela Produtos)' color="">
+                <TabelaProdutos/>
+            </Card>
             <Card titulo='#06 - Repetição (Lista Alunos)' color="#7BA61F">
                 <ListaAlunos/>
             </Card>

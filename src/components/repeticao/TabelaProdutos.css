@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.TabelaProdutos table {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+}
+
+.TabelaProdutos th {
+    background-color: #230ca5;
+   color: white;
+}
+
+.TabelaProdutos .Par {
+    background-color: #ddd;
+   
+}
+
+.TabelaProdutos .Impar {
+    background-color: #ccc;
+   
+}
