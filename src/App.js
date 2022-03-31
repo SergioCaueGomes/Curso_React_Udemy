@@ -22,11 +22,11 @@ export default () => (
         <div className="Cards">
 
             <Card titulo='#08 - Renderização Condicional 1 e 2 ' color="#982395">
-                <ParOuImpar numero={20}></ParOuImpar>
+                <ParOuImpar numero={21}></ParOuImpar>
                 <UsuarioInfo usuario={{ nome: 'Sergio Cauê' }} />
                 <UsuarioInfo usuario={{ email: 'sergiocaue@gmail.com' }} />
             </Card>
-            
+
             <Card titulo='#07 - Desafio Repetição (Tabela Produtos)' color="">
                 <TabelaProdutos/>
             </Card>

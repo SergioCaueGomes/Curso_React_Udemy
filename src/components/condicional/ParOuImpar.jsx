@@ -6,9 +6,10 @@ export default props => {
 
     return (
         <div>
+            O numero é:
             { isPar ?
-                <span>Par</span> :
-                <span>Impar</span>
+                <span> Par</span> :
+                <span> Impar</span>
             }
         </div>
     )
